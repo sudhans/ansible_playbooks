@@ -1,2 +1,7 @@
 ---
 - name: Install Docker on Raspberry Pi
+  hosts: pi5
+  become: yes
+
+  roles:
+    - docker-ce-install

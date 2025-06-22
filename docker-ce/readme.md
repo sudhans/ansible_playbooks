@@ -1,4 +1,12 @@
 This playbook is for installing docker community edition on a raspberry pi running ubuntu server.
+
+Prerequisites:
+ - host machine is online
+ - host machine has python3 installed
+ - you can ssh into the host machine
+ - host machine has ubuntu desktop or server. Other skinned/slim debian variants might need additional packages to be installed.
+
+
 To run this playbook,
  - ansible-playbook -i inventory.yml playbook.yml --ask-become-pass
 

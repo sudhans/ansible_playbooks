@@ -1,0 +1,7 @@
+---
+- name: Setup K8 Cluster on Raspberry Pi(s)
+  hosts: pi
+  become: yes
+
+  roles:
+    - k8-cluster-install
